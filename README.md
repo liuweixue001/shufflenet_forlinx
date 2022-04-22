@@ -1,0 +1,12 @@
+# shufflenet_forlinx
+使用飞凌提供的g++不能直接编译源码，需要调用.camke
+
+需要注意需要连续使用三次cmake .. 或者在GUI界面点击三次config才可以生成Makefile文件
+
+CMakeLists_opencv用于编译opencv，使用时间删掉_opencv
+
+CMakeLists_ncnn用于编译ncnn，使用时间删掉_ncnn
+
+CMakeLists_compile_by_cmake用于编译自己的库，使用时间删掉_compile_by_cmake
+
+compile_by_qt里面为教你如何使用qt编译源码
