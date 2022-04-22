@@ -1,0 +1,6 @@
+1. 按照飞凌提供的用户手册配置qt
+2. 打开终端
+3. 激活飞凌环境：
+       . /home/liu/fl/environment-setup-cortexa7hf-neon-poky-linux-gnueabi
+4. 输入：qmake 命令生成Makefile文件
+5. 输入：make 进行编译
